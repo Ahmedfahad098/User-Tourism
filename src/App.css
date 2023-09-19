@@ -2650,3 +2650,30 @@ right: 0;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+@media(max-width:458px){
+  .heart-contact{
+    display: none !important;
+  }
+}
+
+.packages{
+  background-image: url(../public/cc6a698351344dfc9449b228dac248c1-1@2x.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+@media(max-width:991px){
+  .chang-juf{
+      justify-content: center !important;
+  }
+}
+.chang-juf{
+  justify-content: end;
+}
+@media(max-width:797px){
+  .jus-chanfd{
+      justify-content: center !important;
+  }
+}
+.jus-chanfd{
+  justify-content: space-between;
+}

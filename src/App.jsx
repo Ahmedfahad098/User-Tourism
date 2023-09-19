@@ -21,16 +21,16 @@ import SinglePakages from './assets/components/Adventure/SinglePakages'
 import Image from './assets/components/Adventure/Image'
 import AdventureDubai from './assets/components/Adventure/AdventureDubai'
 import Frequently from './assets/components/Adventure/Frequently'
+import Reviews from './assets/components/Adventure/Reviews'
+import ExploreOther from './assets/components/Adventure/ExploreOther'
+import PackagesHeader from './assets/components/packages/PackagesHeader'
 
 function App() {
 
   return (
     <>
     <Header/>
-   <SinglePakages/>
-   <Image/>
-   <AdventureDubai/>
-   <Frequently/>
+  <PackagesHeader/>
    <Footer/>
     </>
   )
