@@ -2590,7 +2590,7 @@ border-radius: 30px !important;
 }
 .skill{
 background-color: whitesmoke;
-  width: 24rem;
+  width:auto;
   z-index: -4 !important;
   position: relative !important;
   top: -23px !important;
