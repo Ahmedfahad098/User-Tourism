@@ -3,10 +3,10 @@ import React from 'react'
 function ActivityMain() {
   return (
     <>
-      <div className="back-colr">
+      <div className="back-colr" style={{marginTop:"-50px"}}>
       {/* header content start */}
       <div className="row m-0 mt-5">
-        <div className="col-12 text-center">
+        <div className="col-12 text-center" style={{marginTop:"8rem"}}>
           <div><b className="font-sid-ch">The World is Yours</b></div>
           <div><b className="font-sid-ch">To Explore</b></div>
         </div>
