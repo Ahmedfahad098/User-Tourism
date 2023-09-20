@@ -1799,7 +1799,7 @@ padding-top: 80px;
   
 }
 .parent-child-AbuDabiii{
-  background-image: url(../images/act.png);
+  background-image: url(../public/act.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
@@ -1920,13 +1920,14 @@ width: 100%;
 
 }
 .destination {
-  background-image: url(../img/historic.png);
+  background-image: url(historic.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
 }
 
 .destination-contact {
+  margin-top: -21px;
   text-align: center;
   color: white;
   letter-spacing: 4.48px;
@@ -2676,4 +2677,9 @@ right: 0;
 }
 .jus-chanfd{
   justify-content: space-between;
+}
+@media(max-width:344px){
+  .display-g{
+    font-size: 11px;
+  }
 }
