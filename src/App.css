@@ -1799,7 +1799,7 @@ padding-top: 80px;
   
 }
 .parent-child-AbuDabiii{
-  background-image: url(../images/act.png);
+  background-image: url(../public/act.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
@@ -1920,13 +1920,14 @@ width: 100%;
 
 }
 .destination {
-  background-image: url(../img/historic.png);
+  background-image: url(historic.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
 }
 
 .destination-contact {
+  margin-top: -21px;
   text-align: center;
   color: white;
   letter-spacing: 4.48px;
@@ -2590,7 +2591,7 @@ border-radius: 30px !important;
 }
 .skill{
 background-color: whitesmoke;
-  width: 24rem;
+  width:auto;
   z-index: -4 !important;
   position: relative !important;
   top: -23px !important;
@@ -2649,4 +2650,36 @@ right: 0;
   background-image: url(../public/act-one.png) !important;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+@media(max-width:458px){
+  .heart-contact{
+    display: none !important;
+  }
+}
+
+.packages{
+  background-image: url(../public/cc6a698351344dfc9449b228dac248c1-1@2x.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+@media(max-width:991px){
+  .chang-juf{
+      justify-content: center !important;
+  }
+}
+.chang-juf{
+  justify-content: end;
+}
+@media(max-width:797px){
+  .jus-chanfd{
+      justify-content: center !important;
+  }
+}
+.jus-chanfd{
+  justify-content: space-between;
+}
+@media(max-width:344px){
+  .display-g{
+    font-size: 11px;
+  }
 }
