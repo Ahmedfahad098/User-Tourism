@@ -29,11 +29,11 @@ function Header() {
             <div className="main-sub-nav">
                 <div className="nav-laptop ml-auto">
                     <ul className="laptop-parent ">
-                        <li><a className="col-b font-s" href="index.html">Home</a></li>
-                        <li><a className="text-light font-s" href="activities.html">Activity</a></li>
-                        <li><a className="text-light font-s" href="packages.hrml">Packages</a></li>
-                        <li><a className="text-light font-s" href="contactUs.html">Contact Us</a></li>
-                        <li><a className="text-light font-s" href="aboutus.html">About Us</a></li>
+                        <li><a className="col-b font-s" href="/">Home</a></li>
+                        <li><a className="text-light font-s" href="/activity">Activity</a></li>
+                        <li><a className="text-light font-s" href="/packages">Packages</a></li>
+                        <li><a className="text-light font-s" href="/contact">Contact Us</a></li>
+                        <li><a className="text-light font-s" href="/about">About Us</a></li>
                     </ul>
                 </div>
                 <div className="mdicart-outline-parent">
@@ -45,10 +45,10 @@ function Header() {
                 <button className="close-btn" onClick={closeSideNav}><i className="bi bi-x"></i></button>
                 <ul className="m-t">
                     <li><a className=" font-s col-b" href="#hero">Home</a></li>
-                    <li><a className="text-light font-s" href="About-Us.html">Activity</a></li>
-                    <li><a className="text-light font-s" href="#services">Packages</a></li>
-                    <li><a className="text-light font-s" href="#portfolio">Contact Us</a></li>
-                    <li><a className="text-light font-s" href="our-team.html">About Us</a></li>
+                    <li><a className="text-light font-s" href="/activity">Activity</a></li>
+                    <li><a className="text-light font-s"  href="/packages">Packages</a></li>
+                    <li><a className="text-light font-s" href="/contact">Contact Us</a></li>
+                    <li><a className="text-light font-s" href="/about">About Us</a></li>
                 </ul>
                 <div className="mdicart-outline-parent colum">
                     <img className="mdicart-outline-icon" alt="" src="mdicartoutline.svg" />
