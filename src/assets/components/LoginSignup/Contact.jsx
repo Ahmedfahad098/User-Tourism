@@ -3,7 +3,21 @@ import React from 'react';
 
 function ContactForm() {
     return (
+
+          <>
+            <div className="back-colr mb-5" style={{marginTop:"-50px"}}>
+      {/* header content start */}
+      <div className="row m-0 mt-5">
+        <div className="col-12 text-center" style={{marginTop:"8rem"}}>
+          <div className='mt-5'><b className="font-sid-ch ">Contact Us</b></div>
+          <div className='mb-5'><p><b>To Explore</b></p></div>
+        </div>
+      </div>
+      {/* header content end */}
+    
+    </div>
         <div>
+            
             {/* Hero */}
             <div className="bg-contact"></div>
             {/* Hero end */}
@@ -22,7 +36,7 @@ function ContactForm() {
             {/* Google Map end */}
 
             {/* Form */}
-            <div className="container first-contact mt-4">
+            <div className="container first-contact mt-4 mb-5">
                 <div className="row">
                     <div className="col-lg-6 col-md-12 col-sm-12 p-3">
                         <div className="bg-img">
@@ -141,6 +155,7 @@ function ContactForm() {
             </div>
             {/* Form end */}
         </div>
+        </>
     );
 }
 

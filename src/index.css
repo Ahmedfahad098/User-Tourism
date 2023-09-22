@@ -370,7 +370,7 @@
   
   .po-rel {
     position: relative;
-    top: -26px;
+    top: -34px;
   }
   
   .des-dess {
@@ -2683,3 +2683,26 @@
       font-size: 11px;
     }
   }
+
+  .butn-stylid{
+        
+         
+    border-radius: 50px;
+    width: 100%;
+    background: #3b505a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+    }
+    @media(max-width:991px){
+      .chang-text-dir{
+          justify-content: center;
+      }
+  }
+
+  @media(max-width:991px){
+  .posi-fchg{
+    position:static !important;
+  }
+}
